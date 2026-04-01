@@ -1,6 +1,25 @@
 # The Invisible Gallery
 
+![Purpose](https://img.shields.io/badge/Purpose-Learning%20%26%20Testing-1f6feb)
+![SwiftUI](https://img.shields.io/badge/SwiftUI-iOS%20%26%20macOS-orange)
+![React](https://img.shields.io/badge/Web-React%20%2B%20Vite-0ea5e9)
+![License](https://img.shields.io/badge/License-MIT-green)
+
 이 저장소는 배포를 목표로 한 제품 개발이 아니라, Swift 앱 개발 방법을 개인적으로 학습하고 기능 테스트를 반복하기 위한 프로젝트입니다.
+
+## GitHub About 추천 문구
+
+- Description: Personal Swift app learning and feature testing project (with a React parity reference).
+- Topics: swift, swiftui, ios, macos, xcodegen, react, vite, typescript, color-palette, learning-project
+
+## 빠른 이동
+
+- [프로젝트 목표](#프로젝트-목표)
+- [빠른 시작](#빠른-시작)
+- [핵심 기능](#핵심-기능)
+- [기능 parity 현황](#기능-parity-현황)
+- [문서](#문서)
+- [학습 로그 템플릿](#학습-로그-템플릿)
 
 동일한 아이디어(컬러 팔레트 스튜디오)를 두 가지 스택으로 실험합니다.
 
@@ -71,7 +90,14 @@ make build
 - [아키텍처 개요](docs/ARCHITECTURE.md)
 - [학습 가이드](docs/LEARNING_GUIDE.md)
 - [기능 테스트 체크리스트](docs/FEATURE_TEST_CHECKLIST.md)
+- [주간 학습 로그 템플릿](docs/SWIFT_WEEKLY_LOG_TEMPLATE.md)
 - [Swift 폴더 상세 문서](swift/README.md)
+
+## 학습 로그 템플릿
+
+Swift 학습 기록은 아래 템플릿 파일을 복제해서 주차별로 누적하면 됩니다.
+
+- `docs/SWIFT_WEEKLY_LOG_TEMPLATE.md`
 
 ## 운영 원칙
 
