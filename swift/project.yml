@@ -1,0 +1,50 @@
+name: TheInvisibleGallery
+options:
+  deploymentTarget:
+    iOS: "16.0"
+settings:
+  base:
+    SWIFT_VERSION: 6.0
+
+configs:
+  Debug: debug
+  Release: release
+
+targets:
+  TheInvisibleGallery:
+    type: application
+    platform: iOS
+    sources:
+      - path: TheInvisibleGallery
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.acertainromance401.theinvisiblegallery
+        PRODUCT_NAME: TheInvisibleGallery
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: The Invisible Gallery
+        INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents: YES
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0.0
+        TARGETED_DEVICE_FAMILY: "1,2"
+        CODE_SIGN_STYLE: Automatic
+    scheme:
+      gatherCoverageData: false
+
+  TheInvisibleGalleryMac:
+    type: application
+    platform: macOS
+    deploymentTarget: "13.0"
+    sources:
+      - path: TheInvisibleGallery
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.acertainromance401.theinvisiblegallery.mac
+        PRODUCT_NAME: TheInvisibleGalleryMac
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: The Invisible Gallery
+        CURRENT_PROJECT_VERSION: 1
+        MARKETING_VERSION: 1.0.0
+        CODE_SIGN_STYLE: Automatic
+    scheme:
+      gatherCoverageData: false

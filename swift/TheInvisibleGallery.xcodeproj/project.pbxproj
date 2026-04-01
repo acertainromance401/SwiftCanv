@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		068BE7B3A310BF504B6DCC9D /* TheInvisibleGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834E67E739B1DAFBBE46C80 /* TheInvisibleGalleryApp.swift */; };
+		2332CB7AFA5CFAD225793F18 /* TheInvisibleGalleryApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B834E67E739B1DAFBBE46C80 /* TheInvisibleGalleryApp.swift */; };
+		30AE06E2A21C567AC66BA774 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A2DFA1181DD749740FD70 /* ColorModel.swift */; };
+		80C934FFCEE1ABE0157787F2 /* ColorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 869A2DFA1181DD749740FD70 /* ColorModel.swift */; };
+		BBA5376F0BC75D8453431559 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B494E8B1BF0F14FFC57AB38 /* ContentView.swift */; };
+		DB8C93B65120590CBD15BBC2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B494E8B1BF0F14FFC57AB38 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		149C1D358A2F4C5212D5D931 /* TheInvisibleGallery.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = TheInvisibleGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B494E8B1BF0F14FFC57AB38 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		869A2DFA1181DD749740FD70 /* ColorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorModel.swift; sourceTree = "<group>"; };
+		B834E67E739B1DAFBBE46C80 /* TheInvisibleGalleryApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInvisibleGalleryApp.swift; sourceTree = "<group>"; };
+		D0587A71A568CA4CDC4CCF7E /* TheInvisibleGalleryMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TheInvisibleGalleryMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		5155949DF3481F0102152AFC /* TheInvisibleGallery */ = {
+			isa = PBXGroup;
+			children = (
+				869A2DFA1181DD749740FD70 /* ColorModel.swift */,
+				2B494E8B1BF0F14FFC57AB38 /* ContentView.swift */,
+				B834E67E739B1DAFBBE46C80 /* TheInvisibleGalleryApp.swift */,
+			);
+			path = TheInvisibleGallery;
+			sourceTree = "<group>";
+		};
+		A855C5051611BD8C967CBCAC = {
+			isa = PBXGroup;
+			children = (
+				5155949DF3481F0102152AFC /* TheInvisibleGallery */,
+				ACB4B622D0E0D70FE38FF13D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACB4B622D0E0D70FE38FF13D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				149C1D358A2F4C5212D5D931 /* TheInvisibleGallery.app */,
+				D0587A71A568CA4CDC4CCF7E /* TheInvisibleGalleryMac.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4857362EBAC0C36A9C58B6EC /* TheInvisibleGalleryMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47DC37076A7CD60D61A9F802 /* Build configuration list for PBXNativeTarget "TheInvisibleGalleryMac" */;
+			buildPhases = (
+				FB0EB218BD8F655623F09D00 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheInvisibleGalleryMac;
+			packageProductDependencies = (
+			);
+			productName = TheInvisibleGalleryMac;
+			productReference = D0587A71A568CA4CDC4CCF7E /* TheInvisibleGalleryMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		729411E816C3B0B16C9D9150 /* TheInvisibleGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04434C7DE720542F15709DFF /* Build configuration list for PBXNativeTarget "TheInvisibleGallery" */;
+			buildPhases = (
+				C168AB67D8E38F21FA0285EC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TheInvisibleGallery;
+			packageProductDependencies = (
+			);
+			productName = TheInvisibleGallery;
+			productReference = 149C1D358A2F4C5212D5D931 /* TheInvisibleGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		641BC9C30BB0D1533AD50D47 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					4857362EBAC0C36A9C58B6EC = {
+						ProvisioningStyle = Automatic;
+					};
+					729411E816C3B0B16C9D9150 = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C1227B242ED5AA6EB068FA89 /* Build configuration list for PBXProject "TheInvisibleGallery" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = A855C5051611BD8C967CBCAC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = ACB4B622D0E0D70FE38FF13D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				729411E816C3B0B16C9D9150 /* TheInvisibleGallery */,
+				4857362EBAC0C36A9C58B6EC /* TheInvisibleGalleryMac */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C168AB67D8E38F21FA0285EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30AE06E2A21C567AC66BA774 /* ColorModel.swift in Sources */,
+				DB8C93B65120590CBD15BBC2 /* ContentView.swift in Sources */,
+				068BE7B3A310BF504B6DCC9D /* TheInvisibleGalleryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB0EB218BD8F655623F09D00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80C934FFCEE1ABE0157787F2 /* ColorModel.swift in Sources */,
+				BBA5376F0BC75D8453431559 /* ContentView.swift in Sources */,
+				2332CB7AFA5CFAD225793F18 /* TheInvisibleGalleryApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1DC3EF4CB4846E1AEC31C4FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Invisible Gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acertainromance401.theinvisiblegallery;
+				PRODUCT_NAME = TheInvisibleGallery;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		31E3A9F596312882C28DBE5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		9CF1952EF7A630542600E988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Invisible Gallery";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acertainromance401.theinvisiblegallery.mac;
+				PRODUCT_NAME = TheInvisibleGalleryMac;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		EA479E16742FF0070D58CEFF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		ED81E281C420E4F004AC09EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Invisible Gallery";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acertainromance401.theinvisiblegallery.mac;
+				PRODUCT_NAME = TheInvisibleGalleryMac;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EF2FEDAA4400269BD975DCA4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "The Invisible Gallery";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acertainromance401.theinvisiblegallery;
+				PRODUCT_NAME = TheInvisibleGallery;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04434C7DE720542F15709DFF /* Build configuration list for PBXNativeTarget "TheInvisibleGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DC3EF4CB4846E1AEC31C4FD /* Debug */,
+				EF2FEDAA4400269BD975DCA4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		47DC37076A7CD60D61A9F802 /* Build configuration list for PBXNativeTarget "TheInvisibleGalleryMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CF1952EF7A630542600E988 /* Debug */,
+				ED81E281C420E4F004AC09EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1227B242ED5AA6EB068FA89 /* Build configuration list for PBXProject "TheInvisibleGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31E3A9F596312882C28DBE5C /* Debug */,
+				EA479E16742FF0070D58CEFF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 641BC9C30BB0D1533AD50D47 /* Project object */;
+}
